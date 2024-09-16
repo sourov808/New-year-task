@@ -156,11 +156,7 @@ padding-top: 100px;
 
 }
 .banner-4{
-  display: flex;
-  font-family: "Inter";
-  justify-content: space-around;
-  width: 100%;
-
+  
  
 }
 
@@ -203,13 +199,24 @@ padding-bottom: 120px;
 }
 .banner5{
   display: flex;
+  width: 1600px;
+
+ /* background-image: url("/resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position:bottom center;*/
+  background-image: url("/resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  
+ 
+ 
 }
 .banner5-div{
+margin: 0 0 60px 320px;
   text-align: center;
   font-family: "Inter";
-  
+align-items: center;
 }
-.banner5-shor{
+.banner5-shot{
   color: #070211;
 font-size: 24px;
 font-weight: 500;
@@ -231,12 +238,101 @@ line-height: 32px;
 
 }
 .rec1{
-  padding-top: 400px;
+margin:470px 0px 220px 8.8cm;
 width: 429px;
 height: 433px;
 border-radius: 16px 16px 0px 0px;
+}
+.group75{
+  margin:470px 0px ;
+  height: 500px;
+ 
+}
+.banner6{
+  width: 100%;
+  align-items: center;
+  margin-bottom: 120px;
 
 }
-.rec2{
- 
+.banner6-div{
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+.recs-png{
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.banner7{
+  text-align: center;
+  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); ;
+
+}
+.banner7-img{
+  padding-top: 80px;
+
+}
+.banner7-title{
+  color: #070211;
+
+text-align: center;
+font-family:" Merriweather";
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.banner7-des{
+  color: rgba(7, 2, 17, 0.60);
+  width: 896px;
+text-align: center;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.done{
+  width: 210px;
+height: 78px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+}
+input{
+  text-align: center;
+  width: 648px;
+height: 72px;
+border: none;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+color: rgba(7, 2, 17, 0.30);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+}
+footer{
+display: flex;
+  font-family: "Inter";
+justify-content: space-around;
+  width: 100%;
+  color: #FFF;
+  background-color: #070211;
+  margin-top: 250px;
+  padding-top: 130px;
+}
+.social-link{
+  text-align: center;
+  padding-top: 130px;
+}
+.rights{
+  padding-top: 240px;
+  padding-bottom: 60px;
+}
+.right {
+  padding-top: 180px;
+  padding-bottom: 60px;
 }
